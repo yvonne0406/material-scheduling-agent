@@ -43,7 +43,7 @@ src/material_agent/agent/runner.py 实现决策与 Trace；models/client.py 实�
 
 素材审核仅检查元数据；时间按单账号单时点建模，不处理持续时间或过去时间。待确认草稿不预留时段；确认草稿预留。支持显式确认更新同一草稿。真实模型采用 JSON 动作协议而非原生 function calling。模型自由文字曾出现错误时间，可靠排期应以工具结果和结构化输出为准。单次真实运行不代表稳定通过率。
 
-本人提供的实际用时与贡献已记录于docs/04-ai-usage.md。仓库提交信息见最终交付说明；私有仓库还需提供评审访问权限。
+本人提供的实际用时与贡献已记录于docs/04-ai-usage.md。仓库提交信息见最终交付说明；仓库已公开，评审无需额外授权。
 
 最新专项复审见 docs/07-criteria-review.md：21项测试通过，真实更换时段并重复提交后草稿仍为1份，待确认且不占用排期。
 
@@ -66,4 +66,4 @@ real会产生API调用费用。每次使用临时空数据库，输出到example
 
 最终交付入口：docs/08-final-delivery.md。最终证据优先查看examples/delivery-real及docs/03-evaluation.md；之前阶段的日志保留作历史记录。
 
-仓库：https://github.com/yvonne0406/material-scheduling-agent （私有）。评审需获得访问权限；最终SHA请用 `git rev-parse HEAD` 获取并与远程核对。
+仓库：https://github.com/yvonne0406/material-scheduling-agent （公开）。评审可直接访问；最终SHA请用 `git rev-parse HEAD` 获取并与远程核对。
