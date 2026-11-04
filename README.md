@@ -65,3 +65,5 @@ src/material_agent/agent/runner.py 实现决策与 Trace；models/client.py 实�
 real会产生API调用费用。每次使用临时空数据库，输出到examples/delivery-real或delivery-mock（覆盖该目录同名证据）。每组包含输入、实际输出、Trace和数据库核对；summary.json汇总。最后的显式确认由测试脚本模拟用户授权并单独标注，不冒充模型操作。
 
 最终交付入口：docs/08-final-delivery.md。最终证据优先查看examples/delivery-real及docs/03-evaluation.md；之前阶段的日志保留作历史记录。
+
+仓库：https://github.com/yvonne0406/material-scheduling-agent （私有）。评审需获得访问权限；最终SHA请用 `git rev-parse HEAD` 获取并与远程核对。

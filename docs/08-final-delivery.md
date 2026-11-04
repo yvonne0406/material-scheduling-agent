@@ -7,5 +7,5 @@
 评估与验收映射：docs/03-evaluation.md。
 个人用时与贡献：docs/04-ai-usage.md（本人提供1.5小时及方向梳理贡献）。
 
-远程仓库创建与推送需要本机GitHub登录；当前未完成时不得将本地SHA称为已提交GitHub。
+远程私有仓库：https://github.com/yvonne0406/material-scheduling-agent 。已创建并推送；提交时使用经远程核对的最新commit SHA。私有仓库需为指定评审账号添加读取权限，评审账号尚未提供。
 旧审查报告06/07保留历史问题，关于不支持确认更新等旧限制已由本次交互实现修复，当前状态以README、02、03和本文为准。
