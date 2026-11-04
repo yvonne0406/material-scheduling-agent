@@ -1,0 +1,32 @@
+Archive extracted without .env; imports use extracted src via PYTHONPATH.
+test_changed_occupancy_changes_suggestion (test_agent.AgentTests.test_changed_occupancy_changes_suggestion) ... ok
+test_false_completion_rejected (test_agent.AgentTests.test_false_completion_rejected) ... ok
+test_limit (test_agent.AgentTests.test_limit) ... ok
+test_malformed_tool_arguments_are_observed_without_crash (test_agent.AgentTests.test_malformed_tool_arguments_are_observed_without_crash) ... ok
+test_model_observes_tool_result (test_agent.AgentTests.test_model_observes_tool_result) ... ok
+test_persistent_save_failure_never_completes (test_agent.AgentTests.test_persistent_save_failure_never_completes) ... ok
+test_scenarios (test_agent.AgentTests.test_scenarios) ... ok
+test_changed_request_id_content_rejected (test_business_tools.BusinessTests.test_changed_request_id_content_rejected) ... ok
+test_conflict_and_alternative_confirmation_boundary (test_business_tools.BusinessTests.test_conflict_and_alternative_confirmation_boundary) ... ok
+test_failure_rolls_back_and_retry_succeeds (test_business_tools.BusinessTests.test_failure_rolls_back_and_retry_succeeds) ... ok
+test_missing_and_risk (test_business_tools.BusinessTests.test_missing_and_risk) ... ok
+test_normal_and_duplicate (test_business_tools.BusinessTests.test_normal_and_duplicate) ... ok
+test_reservation_rechecked_on_save (test_business_tools.BusinessTests.test_reservation_rechecked_on_save) ... ok
+test_timezone_equivalence (test_business_tools.BusinessTests.test_timezone_equivalence) ... ok
+test_confirmation_failure_keeps_pending (test_interactive.ConfirmationTests.test_confirmation_failure_keeps_pending) ... ok
+test_confirmation_rechecks_changed_schedule (test_interactive.ConfirmationTests.test_confirmation_rechecks_changed_schedule) ... ok
+test_confirmation_rejects_changed_proposal (test_interactive.ConfirmationTests.test_confirmation_rejects_changed_proposal) ... ok
+test_confirmation_updates_same_draft_idempotently (test_interactive.ConfirmationTests.test_confirmation_updates_same_draft_idempotently) ... ok
+test_interactive_accept_and_decline (test_interactive.ConfirmationTests.test_interactive_accept_and_decline) ... ok
+test_alternative_unconfirmed_and_matching_consent (test_review_boundaries.ReviewTests.test_alternative_unconfirmed_and_matching_consent) ... ok
+test_changed_occupancy_after_save_does_not_reuse_as_valid (test_review_boundaries.ReviewTests.test_changed_occupancy_after_save_does_not_reuse_as_valid) ... ok
+test_model_cannot_publish_or_invent_consent (test_review_boundaries.ReviewTests.test_model_cannot_publish_or_invent_consent) ... ok
+test_new_risk_invalidates_reuse (test_review_boundaries.ReviewTests.test_new_risk_invalidates_reuse) ... ok
+test_invalid_request_is_rejected (test_scaffold.ScaffoldTests.test_invalid_request_is_rejected) ... ok
+test_missing_input_has_failure_exit_code (test_scaffold.ScaffoldTests.test_missing_input_has_failure_exit_code) ... ok
+test_unimplemented_run_does_not_claim_success (test_scaffold.ScaffoldTests.test_unimplemented_run_does_not_claim_success) ... ok
+
+----------------------------------------------------------------------
+Ran 26 tests in 1.658s
+
+OK
