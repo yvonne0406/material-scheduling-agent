@@ -1,0 +1,41 @@
+{
+  "run_id": "f5800a0e-4511-4e9b-b738-572a6541d822",
+  "request_id": "req-missing-001",
+  "mode": "mock",
+  "status": "needs_information",
+  "reason": "Model stopped; see decision trace",
+  "tool_calls": 2,
+  "reviews": {
+    "M02": {
+      "status": "needs_information",
+      "missing": [
+        "rights_confirmed"
+      ],
+      "risks": []
+    }
+  },
+  "available_slots": [],
+  "materials": [
+    {
+      "material_id": "M02",
+      "review_status": "needs_information",
+      "risks": [],
+      "missing": [
+        "rights_confirmed"
+      ],
+      "requested_time": "2026-11-03T18:00:00+08:00",
+      "suggested_time": null,
+      "pending": [],
+      "draft_save_status": "not_attempted"
+    }
+  ],
+  "draft_save_status": "not_attempted",
+  "draft": null,
+  "published": false,
+  "trace": "examples/delivery-mock/missing-info.trace.jsonl",
+  "verification": {
+    "stored_drafts": [],
+    "draft_count": 0,
+    "reservation_count": 0
+  }
+}

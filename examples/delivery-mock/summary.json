@@ -1,0 +1,58 @@
+[
+  {
+    "case": "normal",
+    "status": "completed",
+    "save_status": "saved",
+    "tool_calls": 4,
+    "draft_count": 1
+  },
+  {
+    "case": "duplicate",
+    "status": "completed",
+    "save_status": "saved",
+    "tool_calls": 4,
+    "draft_count": 1
+  },
+  {
+    "case": "missing-info",
+    "status": "needs_information",
+    "save_status": "not_attempted",
+    "tool_calls": 2,
+    "draft_count": 0
+  },
+  {
+    "case": "risk",
+    "status": "blocked",
+    "save_status": "not_attempted",
+    "tool_calls": 2,
+    "draft_count": 0
+  },
+  {
+    "case": "conflict",
+    "status": "needs_confirmation",
+    "save_status": "saved",
+    "tool_calls": 4,
+    "draft_count": 1
+  },
+  {
+    "case": "save-persistent-failure",
+    "status": "failed",
+    "save_status": "failed",
+    "tool_calls": 4,
+    "draft_count": 0
+  },
+  {
+    "case": "criteria-shifted",
+    "status": "needs_confirmation",
+    "save_status": "saved",
+    "tool_calls": 4,
+    "draft_count": 1
+  },
+  {
+    "case": "criteria-shifted-repeat",
+    "status": "needs_confirmation",
+    "save_status": "saved",
+    "tool_calls": 4,
+    "draft_count": 1
+  }
+]

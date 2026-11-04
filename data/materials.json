@@ -1,0 +1,24 @@
+[
+  {
+    "id": "M01",
+    "title": "字幕功能介绍",
+    "rights_confirmed": true,
+    "claims": [
+      "支持字幕"
+    ]
+  },
+  {
+    "id": "M02",
+    "title": "待补充授权素材",
+    "rights_confirmed": null,
+    "claims": []
+  },
+  {
+    "id": "M03",
+    "title": "风险宣传素材",
+    "rights_confirmed": true,
+    "claims": [
+      "保证收益翻倍"
+    ]
+  }
+]

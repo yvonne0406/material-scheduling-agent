@@ -1,0 +1,57 @@
+{
+  "run_id": "b91315ac-2ab6-4bcb-89f0-7b76d212b8c1",
+  "request_id": "req-conflict-001",
+  "mode": "real",
+  "status": "needs_confirmation",
+  "reason": "Model stopped; see decision trace",
+  "tool_calls": 5,
+  "reviews": {
+    "M01": {
+      "status": "approved",
+      "missing": [],
+      "risks": []
+    }
+  },
+  "available_slots": [
+    "2026-11-03T13:00:00+00:00",
+    "2026-11-03T14:00:00+00:00",
+    "2026-11-03T15:00:00+00:00",
+    "2026-11-03T16:00:00+00:00",
+    "2026-11-03T17:00:00+00:00"
+  ],
+  "materials": [
+    {
+      "material_id": "M01",
+      "review_status": "approved",
+      "risks": [],
+      "requested_time": "2026-11-03T12:00:00+00:00",
+      "suggested_time": "2026-11-03T13:00:00+00:00",
+      "status": "needs_confirmation",
+      "pending": [
+        "Confirm alternative time"
+      ]
+    }
+  ],
+  "draft_save_status": "saved",
+  "draft": {
+    "status": "saved",
+    "reused": false,
+    "draft_id": "draft-60b78253966770943fae",
+    "items": [
+      {
+        "material_id": "M01",
+        "review_status": "approved",
+        "risks": [],
+        "requested_time": "2026-11-03T12:00:00+00:00",
+        "suggested_time": "2026-11-03T13:00:00+00:00",
+        "status": "needs_confirmation",
+        "pending": [
+          "Confirm alternative time"
+        ]
+      }
+    ],
+    "published": false
+  },
+  "published": false,
+  "trace": "examples\\traces\\real-conflict-verified-slots.jsonl"
+}

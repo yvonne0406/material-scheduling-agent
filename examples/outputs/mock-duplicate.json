@@ -1,0 +1,46 @@
+{
+  "run_id": "d375b83e-a999-4125-9754-381bc2af9e56",
+  "request_id": "req-normal-001",
+  "mode": "mock",
+  "status": "completed",
+  "reason": "Model stopped; see decision trace",
+  "tool_calls": 4,
+  "reviews": {
+    "M01": {
+      "status": "approved",
+      "missing": [],
+      "risks": []
+    }
+  },
+  "materials": [
+    {
+      "material_id": "M01",
+      "review_status": "approved",
+      "risks": [],
+      "requested_time": "2026-11-03T10:00:00+00:00",
+      "suggested_time": "2026-11-03T10:00:00+00:00",
+      "status": "confirmed",
+      "pending": []
+    }
+  ],
+  "draft_save_status": "saved",
+  "draft": {
+    "status": "saved",
+    "reused": true,
+    "draft_id": "draft-534fce28a8fcd750a08f",
+    "items": [
+      {
+        "material_id": "M01",
+        "review_status": "approved",
+        "risks": [],
+        "requested_time": "2026-11-03T10:00:00+00:00",
+        "suggested_time": "2026-11-03T10:00:00+00:00",
+        "status": "confirmed",
+        "pending": []
+      }
+    ],
+    "published": false
+  },
+  "published": false,
+  "trace": "C:\\Users\\wen\\Documents\\Codex\\2026-11-02\\new-chat\\outputs\\material-scheduling-agent\\examples\\traces\\mock-duplicate.jsonl"
+}

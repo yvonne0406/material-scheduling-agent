@@ -1,0 +1,43 @@
+{
+  "run_id": "15236ea5-ef50-4d20-b8a9-f10142380d9b",
+  "request_id": "req-persistent-001",
+  "mode": "real",
+  "status": "failed",
+  "reason": "Model stopped; see decision trace",
+  "tool_calls": 4,
+  "reviews": {
+    "M01": {
+      "status": "approved",
+      "missing": [],
+      "risks": []
+    }
+  },
+  "available_slots": [
+    "2026-11-03T10:00:00+00:00",
+    "2026-11-03T11:00:00+00:00",
+    "2026-11-03T13:00:00+00:00",
+    "2026-11-03T14:00:00+00:00",
+    "2026-11-03T15:00:00+00:00"
+  ],
+  "materials": [
+    {
+      "material_id": "M01",
+      "review_status": "approved",
+      "risks": [],
+      "missing": [],
+      "requested_time": "2026-11-03T18:00:00+08:00",
+      "suggested_time": null,
+      "pending": [],
+      "draft_save_status": "failed"
+    }
+  ],
+  "draft_save_status": "failed",
+  "draft": null,
+  "published": false,
+  "trace": "examples/delivery-real/save-persistent-failure.trace.jsonl",
+  "verification": {
+    "stored_drafts": [],
+    "draft_count": 0,
+    "reservation_count": 0
+  }
+}

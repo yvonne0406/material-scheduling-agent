@@ -1,0 +1,46 @@
+{
+  "run_id": "7a0449f7-3808-4d13-a8b8-f6d17c271537",
+  "request_id": "req-failure-001",
+  "mode": "real",
+  "status": "completed",
+  "reason": "Model stopped; see decision trace",
+  "tool_calls": 5,
+  "reviews": {
+    "M01": {
+      "status": "approved",
+      "missing": [],
+      "risks": []
+    }
+  },
+  "materials": [
+    {
+      "material_id": "M01",
+      "review_status": "approved",
+      "risks": [],
+      "requested_time": "2026-11-03T10:00:00+00:00",
+      "suggested_time": "2026-11-03T10:00:00+00:00",
+      "status": "confirmed",
+      "pending": []
+    }
+  ],
+  "draft_save_status": "saved",
+  "draft": {
+    "status": "saved",
+    "reused": false,
+    "draft_id": "draft-97b65ad6d5f1fba4c3cf",
+    "items": [
+      {
+        "material_id": "M01",
+        "review_status": "approved",
+        "risks": [],
+        "requested_time": "2026-11-03T10:00:00+00:00",
+        "suggested_time": "2026-11-03T10:00:00+00:00",
+        "status": "confirmed",
+        "pending": []
+      }
+    ],
+    "published": false
+  },
+  "published": false,
+  "trace": "examples\\traces\\real-save-failure.jsonl"
+}

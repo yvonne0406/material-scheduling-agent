@@ -1,0 +1,8 @@
+{
+  "request_id": "criteria-shifted-001",
+  "material_ids": [
+    "M01"
+  ],
+  "requested_time": "2026-11-03T18:00:00+08:00",
+  "time_requirement": "hard"
+}

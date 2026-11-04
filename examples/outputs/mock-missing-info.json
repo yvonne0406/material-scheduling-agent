@@ -1,0 +1,22 @@
+{
+  "run_id": "e5d79468-95b9-4b3d-a647-3f227e24553d",
+  "request_id": "req-missing-001",
+  "mode": "mock",
+  "status": "needs_information",
+  "reason": "Model stopped; see decision trace",
+  "tool_calls": 2,
+  "reviews": {
+    "M02": {
+      "status": "needs_information",
+      "missing": [
+        "rights_confirmed"
+      ],
+      "risks": []
+    }
+  },
+  "materials": [],
+  "draft_save_status": "not_attempted",
+  "draft": null,
+  "published": false,
+  "trace": "C:\\Users\\wen\\Documents\\Codex\\2026-11-02\\new-chat\\outputs\\material-scheduling-agent\\examples\\traces\\mock-missing-info.jsonl"
+}

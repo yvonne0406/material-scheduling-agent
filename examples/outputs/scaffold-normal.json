@@ -1,0 +1,9 @@
+{
+  "request_id": "req-normal-001",
+  "mode": "scaffold",
+  "status": "not_implemented",
+  "reason": "Scaffold only: model loop and business tools are not implemented.",
+  "materials": [],
+  "draft_save_status": "not_attempted",
+  "tool_calls": 0
+}

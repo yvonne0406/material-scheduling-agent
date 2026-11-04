@@ -1,0 +1,40 @@
+{
+  "run_id": "e86cdd45-08ec-498c-b925-0677940e9caf",
+  "request_id": "criteria-shifted-001",
+  "mode": "real",
+  "status": "needs_confirmation",
+  "reason": "Model stopped; see decision trace",
+  "tool_calls": 4,
+  "reviews": {
+    "M01": {
+      "status": "approved",
+      "missing": [],
+      "risks": []
+    }
+  },
+  "available_slots": [
+    "2026-11-03T11:00:00+00:00",
+    "2026-11-03T12:00:00+00:00",
+    "2026-11-03T13:00:00+00:00",
+    "2026-11-03T14:00:00+00:00",
+    "2026-11-03T15:00:00+00:00"
+  ],
+  "materials": [
+    {
+      "material_id": "M01",
+      "review_status": "approved",
+      "risks": [],
+      "missing": [],
+      "requested_time": "2026-11-03T18:00:00+08:00",
+      "suggested_time": null,
+      "pending": [
+        "Confirm an available alternative"
+      ],
+      "draft_save_status": "not_attempted"
+    }
+  ],
+  "draft_save_status": "not_attempted",
+  "draft": null,
+  "published": false,
+  "trace": "examples\\traces\\criteria-shifted-real.jsonl"
+}

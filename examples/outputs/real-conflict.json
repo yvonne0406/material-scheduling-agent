@@ -1,0 +1,20 @@
+{
+  "run_id": "53523420-f274-4428-8f07-53084c594f6c",
+  "request_id": "req-conflict-001",
+  "mode": "real",
+  "status": "needs_confirmation",
+  "reason": "Model stopped; see decision trace",
+  "tool_calls": 4,
+  "reviews": {
+    "M01": {
+      "status": "approved",
+      "missing": [],
+      "risks": []
+    }
+  },
+  "materials": [],
+  "draft_save_status": "not_attempted",
+  "draft": null,
+  "published": false,
+  "trace": "examples\\traces\\real-conflict.jsonl"
+}

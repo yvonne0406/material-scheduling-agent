@@ -1,0 +1,13 @@
+[
+  {
+    "id": "R01",
+    "field": "rights_confirmed",
+    "required_value": true,
+    "reason": "必须确认素材授权"
+  },
+  {
+    "id": "R02",
+    "forbidden_claim": "保证收益翻倍",
+    "reason": "禁止无依据收益承诺"
+  }
+]

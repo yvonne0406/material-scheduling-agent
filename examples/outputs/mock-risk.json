@@ -1,0 +1,25 @@
+{
+  "run_id": "82e3f1b5-7ad2-4da2-a0e1-ad1d18be832a",
+  "request_id": "req-risk-001",
+  "mode": "mock",
+  "status": "blocked",
+  "reason": "Model stopped; see decision trace",
+  "tool_calls": 2,
+  "reviews": {
+    "M03": {
+      "status": "blocked",
+      "missing": [],
+      "risks": [
+        {
+          "rule_id": "R02",
+          "reason": "禁止无依据收益承诺"
+        }
+      ]
+    }
+  },
+  "materials": [],
+  "draft_save_status": "not_attempted",
+  "draft": null,
+  "published": false,
+  "trace": "C:\\Users\\wen\\Documents\\Codex\\2026-11-02\\new-chat\\outputs\\material-scheduling-agent\\examples\\traces\\mock-risk.jsonl"
+}

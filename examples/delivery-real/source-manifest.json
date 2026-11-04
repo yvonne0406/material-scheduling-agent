@@ -1,0 +1,15 @@
+{
+  "src/material_agent/cli.py": "b15a7bcf9aef6a450694056677d9a71443694a45fa00311ada32afa69d083238",
+  "src/material_agent/contracts.py": "4ab0df91ef518ba1036cef9cf3777cfc7da38cfcd95ae921df41596c63c3dfc8",
+  "src/material_agent/interactive.py": "ff8073e79f5eb07e8a4bf4058caf4536ce9541274683ab6f0cadd4c8bfb050a9",
+  "src/material_agent/__init__.py": "41362a5ea4931c546433d4c48290c5707bf02dbbea1c3aafa9f43d1225e47003",
+  "src/material_agent/__main__.py": "482b8693e2fe6dbd732e3d7961e03827d3efa187bad11d29da188be580ebbeea",
+  "src/material_agent/agent/runner.py": "4e46946288b18e8aab75955e739cb4523a90257979c67a08c59702725e936fac",
+  "src/material_agent/agent/__init__.py": "5074fd843ceb7925cb21a1bd70d791a31d9f6482f53772943c113d09d7e47390",
+  "src/material_agent/models/client.py": "8259dde5f23894b477f96a1954998657de5ade4e059941cc81ab595a55f03ca7",
+  "src/material_agent/models/__init__.py": "a096c00dd65c1049fb461e6e12c162eafa0a816a4a183fd837294e27085a37aa",
+  "src/material_agent/observability/__init__.py": "b20b48bdbdf91d2114b98b4adb2cc9477f3c1a61de6c78c32e2469a58736112f",
+  "src/material_agent/storage/__init__.py": "c2a60ae1b067cc95b8853fcbbb0983003314d4ef7586d19898e3779cb8a7a37c",
+  "src/material_agent/tools/service.py": "70c6573f86e09a8e52eff7d34c8fbded5076ccd970448260e9c3cfaacfcd7a45",
+  "src/material_agent/tools/__init__.py": "a57f214720cb746845f8d3b04c74fe405e8df1fe794fc6889f1b74d3cf839306"
+}

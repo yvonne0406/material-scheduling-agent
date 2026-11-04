@@ -1,0 +1,8 @@
+test_invalid_request_is_rejected (test_scaffold.ScaffoldTests.test_invalid_request_is_rejected) ... ok
+test_missing_input_has_failure_exit_code (test_scaffold.ScaffoldTests.test_missing_input_has_failure_exit_code) ... ok
+test_unimplemented_run_does_not_claim_success (test_scaffold.ScaffoldTests.test_unimplemented_run_does_not_claim_success) ... ok
+
+----------------------------------------------------------------------
+Ran 3 tests in 0.039s
+
+OK

@@ -1,0 +1,26 @@
+{
+  "source": "test_harness_simulated_user_consent_not_model",
+  "input": {
+    "M01": "2026-11-03T11:00:00+00:00"
+  },
+  "result": {
+    "status": "saved",
+    "reused": false,
+    "draft_id": "draft-a5b5d6e3675087d22443",
+    "items": [
+      {
+        "material_id": "M01",
+        "review_status": "approved",
+        "risks": [],
+        "requested_time": "2026-11-03T10:00:00+00:00",
+        "suggested_time": "2026-11-03T11:00:00+00:00",
+        "status": "confirmed",
+        "pending": []
+      }
+    ],
+    "published": false,
+    "confirmation_source": "explicit_user",
+    "database_draft_count": 1,
+    "database_reservation_count": 1
+  }
+}

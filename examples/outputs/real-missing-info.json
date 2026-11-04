@@ -1,0 +1,22 @@
+{
+  "run_id": "d85779a7-8260-47ca-87c7-6122e14e9dd2",
+  "request_id": "req-missing-001",
+  "mode": "real",
+  "status": "needs_information",
+  "reason": "Model stopped; see decision trace",
+  "tool_calls": 2,
+  "reviews": {
+    "M02": {
+      "status": "needs_information",
+      "missing": [
+        "rights_confirmed"
+      ],
+      "risks": []
+    }
+  },
+  "materials": [],
+  "draft_save_status": "not_attempted",
+  "draft": null,
+  "published": false,
+  "trace": "examples\\traces\\real-missing-info.jsonl"
+}

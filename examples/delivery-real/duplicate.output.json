@@ -1,0 +1,70 @@
+{
+  "run_id": "dfa033d3-890a-413c-ba27-74d678d7ff4a",
+  "request_id": "req-normal-001",
+  "mode": "real",
+  "status": "completed",
+  "reason": "Model stopped; see decision trace",
+  "tool_calls": 4,
+  "reviews": {
+    "M01": {
+      "status": "approved",
+      "missing": [],
+      "risks": []
+    }
+  },
+  "available_slots": [
+    "2026-11-03T10:00:00+00:00"
+  ],
+  "materials": [
+    {
+      "material_id": "M01",
+      "review_status": "approved",
+      "risks": [],
+      "requested_time": "2026-11-03T10:00:00+00:00",
+      "suggested_time": "2026-11-03T10:00:00+00:00",
+      "status": "confirmed",
+      "pending": []
+    }
+  ],
+  "draft_save_status": "saved",
+  "draft": {
+    "status": "saved",
+    "reused": true,
+    "draft_id": "draft-534fce28a8fcd750a08f",
+    "items": [
+      {
+        "material_id": "M01",
+        "review_status": "approved",
+        "risks": [],
+        "requested_time": "2026-11-03T10:00:00+00:00",
+        "suggested_time": "2026-11-03T10:00:00+00:00",
+        "status": "confirmed",
+        "pending": []
+      }
+    ],
+    "published": false
+  },
+  "published": false,
+  "trace": "examples/delivery-real/duplicate.trace.jsonl",
+  "verification": {
+    "stored_drafts": [
+      {
+        "draft_id": "draft-534fce28a8fcd750a08f",
+        "items": [
+          {
+            "material_id": "M01",
+            "review_status": "approved",
+            "risks": [],
+            "requested_time": "2026-11-03T10:00:00+00:00",
+            "suggested_time": "2026-11-03T10:00:00+00:00",
+            "status": "confirmed",
+            "pending": []
+          }
+        ],
+        "published": false
+      }
+    ],
+    "draft_count": 1,
+    "reservation_count": 1
+  }
+}

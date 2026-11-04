@@ -1,0 +1,49 @@
+{
+  "run_id": "43f31914-785e-4aa9-89a3-240865845656",
+  "request_id": "req-normal-001",
+  "mode": "real",
+  "status": "completed",
+  "reason": "Model stopped; see decision trace",
+  "tool_calls": 4,
+  "reviews": {
+    "M01": {
+      "status": "approved",
+      "missing": [],
+      "risks": []
+    }
+  },
+  "available_slots": [
+    "2026-11-03T10:00:00+00:00"
+  ],
+  "materials": [
+    {
+      "material_id": "M01",
+      "review_status": "approved",
+      "risks": [],
+      "requested_time": "2026-11-03T10:00:00+00:00",
+      "suggested_time": "2026-11-03T10:00:00+00:00",
+      "status": "confirmed",
+      "pending": []
+    }
+  ],
+  "draft_save_status": "saved",
+  "draft": {
+    "status": "saved",
+    "reused": true,
+    "draft_id": "draft-534fce28a8fcd750a08f",
+    "items": [
+      {
+        "material_id": "M01",
+        "review_status": "approved",
+        "risks": [],
+        "requested_time": "2026-11-03T10:00:00+00:00",
+        "suggested_time": "2026-11-03T10:00:00+00:00",
+        "status": "confirmed",
+        "pending": []
+      }
+    ],
+    "published": false
+  },
+  "published": false,
+  "trace": "examples\\traces\\real-duplicate-fixed.jsonl"
+}

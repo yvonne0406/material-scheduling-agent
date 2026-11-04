@@ -1,0 +1,20 @@
+{
+  "run_id": "0871969a-60f3-43dc-805f-ab77005728fa",
+  "request_id": "req-failure-001",
+  "mode": "mock",
+  "status": "failed",
+  "reason": "Model stopped; see decision trace",
+  "tool_calls": 4,
+  "reviews": {
+    "M01": {
+      "status": "approved",
+      "missing": [],
+      "risks": []
+    }
+  },
+  "materials": [],
+  "draft_save_status": "failed",
+  "draft": null,
+  "published": false,
+  "trace": "C:\\Users\\wen\\Documents\\Codex\\2026-11-02\\new-chat\\outputs\\material-scheduling-agent\\examples\\traces\\mock-save-failure.jsonl"
+}

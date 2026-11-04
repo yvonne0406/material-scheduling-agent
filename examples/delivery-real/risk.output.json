@@ -1,0 +1,47 @@
+{
+  "run_id": "5a925bcc-cbe7-4722-ad78-3ae52722aa0a",
+  "request_id": "req-risk-001",
+  "mode": "real",
+  "status": "blocked",
+  "reason": "Model stopped; see decision trace",
+  "tool_calls": 2,
+  "reviews": {
+    "M03": {
+      "status": "blocked",
+      "missing": [],
+      "risks": [
+        {
+          "rule_id": "R02",
+          "reason": "禁止无依据收益承诺"
+        }
+      ]
+    }
+  },
+  "available_slots": [],
+  "materials": [
+    {
+      "material_id": "M03",
+      "review_status": "blocked",
+      "risks": [
+        {
+          "rule_id": "R02",
+          "reason": "禁止无依据收益承诺"
+        }
+      ],
+      "missing": [],
+      "requested_time": "2026-11-03T18:00:00+08:00",
+      "suggested_time": null,
+      "pending": [],
+      "draft_save_status": "not_attempted"
+    }
+  ],
+  "draft_save_status": "not_attempted",
+  "draft": null,
+  "published": false,
+  "trace": "examples/delivery-real/risk.trace.jsonl",
+  "verification": {
+    "stored_drafts": [],
+    "draft_count": 0,
+    "reservation_count": 0
+  }
+}

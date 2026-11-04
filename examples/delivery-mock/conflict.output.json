@@ -1,0 +1,77 @@
+{
+  "run_id": "5bb37ed2-e69e-4cbf-a24f-53c635cdbdc0",
+  "request_id": "req-conflict-001",
+  "mode": "mock",
+  "status": "needs_confirmation",
+  "reason": "Model stopped; see decision trace",
+  "tool_calls": 4,
+  "reviews": {
+    "M01": {
+      "status": "approved",
+      "missing": [],
+      "risks": []
+    }
+  },
+  "available_slots": [
+    "2026-11-03T13:00:00+00:00",
+    "2026-11-03T14:00:00+00:00"
+  ],
+  "materials": [
+    {
+      "material_id": "M01",
+      "review_status": "approved",
+      "risks": [],
+      "requested_time": "2026-11-03T12:00:00+00:00",
+      "suggested_time": "2026-11-03T13:00:00+00:00",
+      "status": "needs_confirmation",
+      "pending": [
+        "Confirm alternative time"
+      ]
+    }
+  ],
+  "draft_save_status": "saved",
+  "draft": {
+    "status": "saved",
+    "reused": false,
+    "draft_id": "draft-60b78253966770943fae",
+    "items": [
+      {
+        "material_id": "M01",
+        "review_status": "approved",
+        "risks": [],
+        "requested_time": "2026-11-03T12:00:00+00:00",
+        "suggested_time": "2026-11-03T13:00:00+00:00",
+        "status": "needs_confirmation",
+        "pending": [
+          "Confirm alternative time"
+        ]
+      }
+    ],
+    "published": false
+  },
+  "published": false,
+  "trace": "examples/delivery-mock/conflict.trace.jsonl",
+  "verification": {
+    "stored_drafts": [
+      {
+        "draft_id": "draft-60b78253966770943fae",
+        "items": [
+          {
+            "material_id": "M01",
+            "review_status": "approved",
+            "risks": [],
+            "requested_time": "2026-11-03T12:00:00+00:00",
+            "suggested_time": "2026-11-03T13:00:00+00:00",
+            "status": "needs_confirmation",
+            "pending": [
+              "Confirm alternative time"
+            ]
+          }
+        ],
+        "published": false
+      }
+    ],
+    "draft_count": 1,
+    "reservation_count": 0
+  }
+}

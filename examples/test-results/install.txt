@@ -1,0 +1,21 @@
+Looking in indexes: https://pypi.doubanio.com/simple
+Obtaining file:///C:/Users/wen/Documents/Codex/2026-11-02/new-chat/outputs/material-scheduling-agent
+  Installing build dependencies: started
+  Installing build dependencies: finished with status 'done'
+  Checking if build backend supports build_editable: started
+  Checking if build backend supports build_editable: finished with status 'done'
+  Getting requirements to build editable: started
+  Getting requirements to build editable: finished with status 'done'
+  Preparing editable metadata (pyproject.toml): started
+  Preparing editable metadata (pyproject.toml): finished with status 'done'
+Building wheels for collected packages: material-scheduling-agent
+  Building editable for material-scheduling-agent (pyproject.toml): started
+  Building editable for material-scheduling-agent (pyproject.toml): finished with status 'done'
+  Created wheel for material-scheduling-agent: filename=material_scheduling_agent-0.1.0-0.editable-py3-none-any.whl size=1782 sha256=73a6b26c4e160c097f60647fd983ca8cdd8cf9d221eb614837e2493704b2abd6
+  Stored in directory: C:\Users\wen\AppData\Local\Temp\pip-ephem-wheel-cache-jpkgbmve\wheels\c8\7c\c2\ba0d401a5f3bdfefafb39ee663ec41dcbe05602803bb5b2fa8
+Successfully built material-scheduling-agent
+Installing collected packages: material-scheduling-agent
+Successfully installed material-scheduling-agent-0.1.0
+
+[notice] A new release of pip is available: 24.0 -> 26.2.2
+[notice] To update, run: C:\Users\wen\Documents\Codex\2026-11-02\new-chat\outputs\material-scheduling-agent\.venv\Scripts\python.exe -m pip install --upgrade pip

@@ -1,0 +1,25 @@
+{
+  "run_id": "41f6dd94-55c3-4f51-9034-a4ce79b4ea4a",
+  "request_id": "req-risk-001",
+  "mode": "real",
+  "status": "blocked",
+  "reason": "Model stopped; see decision trace",
+  "tool_calls": 2,
+  "reviews": {
+    "M03": {
+      "status": "blocked",
+      "missing": [],
+      "risks": [
+        {
+          "rule_id": "R02",
+          "reason": "禁止无依据收益承诺"
+        }
+      ]
+    }
+  },
+  "materials": [],
+  "draft_save_status": "not_attempted",
+  "draft": null,
+  "published": false,
+  "trace": "examples\\traces\\real-risk.jsonl"
+}

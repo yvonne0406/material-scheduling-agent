@@ -1,0 +1,75 @@
+Input supplied by test harness: CONFIRM
+素材审核与排期 | 仅保存草稿 | 模式: mock
+{
+  "run_id": "3000ccf4-6d34-43fa-a17f-0ba289ee32f0",
+  "request_id": "criteria-shifted-001",
+  "mode": "mock",
+  "status": "needs_confirmation",
+  "reason": "Model stopped; see decision trace",
+  "tool_calls": 4,
+  "reviews": {
+    "M01": {
+      "status": "approved",
+      "missing": [],
+      "risks": []
+    }
+  },
+  "available_slots": [
+    "2026-11-03T11:00:00+00:00",
+    "2026-11-03T12:00:00+00:00"
+  ],
+  "materials": [
+    {
+      "material_id": "M01",
+      "review_status": "approved",
+      "risks": [],
+      "requested_time": "2026-11-03T10:00:00+00:00",
+      "suggested_time": "2026-11-03T11:00:00+00:00",
+      "status": "needs_confirmation",
+      "pending": [
+        "Confirm alternative time"
+      ]
+    }
+  ],
+  "draft_save_status": "saved",
+  "draft": {
+    "status": "saved",
+    "reused": false,
+    "draft_id": "draft-a5b5d6e3675087d22443",
+    "items": [
+      {
+        "material_id": "M01",
+        "review_status": "approved",
+        "risks": [],
+        "requested_time": "2026-11-03T10:00:00+00:00",
+        "suggested_time": "2026-11-03T11:00:00+00:00",
+        "status": "needs_confirmation",
+        "pending": [
+          "Confirm alternative time"
+        ]
+      }
+    ],
+    "published": false
+  },
+  "published": false,
+  "trace": "examples\\delivery-mock\\interactive.trace.jsonl"
+}
+以上建议尚未获得同意。确认后仍仅为排期草稿，不发布。
+接受列出的所有建议时段？输入 CONFIRM 确认；其他输入保留待确认: {
+  "status": "saved",
+  "reused": false,
+  "draft_id": "draft-a5b5d6e3675087d22443",
+  "items": [
+    {
+      "material_id": "M01",
+      "review_status": "approved",
+      "risks": [],
+      "requested_time": "2026-11-03T10:00:00+00:00",
+      "suggested_time": "2026-11-03T11:00:00+00:00",
+      "status": "confirmed",
+      "pending": []
+    }
+  ],
+  "published": false,
+  "confirmation_source": "explicit_user"
+}

@@ -1,0 +1,19 @@
+test_false_completion_rejected (test_agent.AgentTests.test_false_completion_rejected) ... ok
+test_limit (test_agent.AgentTests.test_limit) ... ok
+test_model_observes_tool_result (test_agent.AgentTests.test_model_observes_tool_result) ... ok
+test_scenarios (test_agent.AgentTests.test_scenarios) ... ok
+test_changed_request_id_content_rejected (test_business_tools.BusinessTests.test_changed_request_id_content_rejected) ... ok
+test_conflict_and_alternative_confirmation_boundary (test_business_tools.BusinessTests.test_conflict_and_alternative_confirmation_boundary) ... ok
+test_failure_rolls_back_and_retry_succeeds (test_business_tools.BusinessTests.test_failure_rolls_back_and_retry_succeeds) ... ok
+test_missing_and_risk (test_business_tools.BusinessTests.test_missing_and_risk) ... ok
+test_normal_and_duplicate (test_business_tools.BusinessTests.test_normal_and_duplicate) ... ok
+test_reservation_rechecked_on_save (test_business_tools.BusinessTests.test_reservation_rechecked_on_save) ... ok
+test_timezone_equivalence (test_business_tools.BusinessTests.test_timezone_equivalence) ... ok
+test_invalid_request_is_rejected (test_scaffold.ScaffoldTests.test_invalid_request_is_rejected) ... ok
+test_missing_input_has_failure_exit_code (test_scaffold.ScaffoldTests.test_missing_input_has_failure_exit_code) ... ok
+test_unimplemented_run_does_not_claim_success (test_scaffold.ScaffoldTests.test_unimplemented_run_does_not_claim_success) ... ok
+
+----------------------------------------------------------------------
+Ran 14 tests in 0.638s
+
+OK

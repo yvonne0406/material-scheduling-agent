@@ -1,0 +1,50 @@
+{
+  "run_id": "6ecced66-3301-45e2-9fc4-13e6d4b40993",
+  "request_id": "req-conflict-001",
+  "mode": "mock",
+  "status": "needs_confirmation",
+  "reason": "Model stopped; see decision trace",
+  "tool_calls": 4,
+  "reviews": {
+    "M01": {
+      "status": "approved",
+      "missing": [],
+      "risks": []
+    }
+  },
+  "materials": [
+    {
+      "material_id": "M01",
+      "review_status": "approved",
+      "risks": [],
+      "requested_time": "2026-11-03T12:00:00+00:00",
+      "suggested_time": "2026-11-03T13:00:00+00:00",
+      "status": "needs_confirmation",
+      "pending": [
+        "Confirm alternative time"
+      ]
+    }
+  ],
+  "draft_save_status": "saved",
+  "draft": {
+    "status": "saved",
+    "reused": false,
+    "draft_id": "draft-60b78253966770943fae",
+    "items": [
+      {
+        "material_id": "M01",
+        "review_status": "approved",
+        "risks": [],
+        "requested_time": "2026-11-03T12:00:00+00:00",
+        "suggested_time": "2026-11-03T13:00:00+00:00",
+        "status": "needs_confirmation",
+        "pending": [
+          "Confirm alternative time"
+        ]
+      }
+    ],
+    "published": false
+  },
+  "published": false,
+  "trace": "C:\\Users\\wen\\Documents\\Codex\\2026-11-02\\new-chat\\outputs\\material-scheduling-agent\\examples\\traces\\mock-conflict.jsonl"
+}
